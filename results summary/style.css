@@ -1,0 +1,140 @@
+body{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: "Inter", sans-serif;
+    
+}
+
+p{
+    font-size: 18px;
+}
+
+b{
+    color: black;
+
+}
+
+#ss{
+    font-size: 50px;
+    color: white;
+}
+
+.box{
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    padding: 5%;
+    border-radius: 15px;
+    font-family: "Inter", sans-serif;
+}
+
+.box1{
+    background: linear-gradient(to bottom, #6642fe,#322bea );
+    position: unset;
+    top: 20%;
+    left: 13%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 20px;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 300px;
+    color: aliceblue;
+
+}
+
+.box2{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding-left: 50px;
+    padding-right: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+
+}
+
+.circletext{
+    background: linear-gradient(to bottom, #4a25cd,#4633ed );
+    border-radius: 100%;
+    height: 100px;
+    width: 100px;
+    padding: 35px;
+}
+
+.item{
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin: 5px 0;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.reaction{
+    background-color: #fff6f5;
+    border-style: none;
+    color: #e7696a;
+        
+}
+
+.memory{
+    background-color: #fffbf2;
+    border-style: none;
+    color: #f0b43a;
+
+}
+
+.verbal{
+    background-color: #f2fbfa;
+    border-style: none;
+    color: #28a889;
+    gap: ;
+
+}
+
+.visual{
+    background-color: #f3f3fd;
+    border-style: none;
+    color: #1c27a7;
+
+}
+
+.btn {
+    border: none;
+    border-radius: 50px;
+    cursor: default;
+    margin: 10px;
+    transition: background-color 0.3s, transform 0.1s;
+    font-size: 18px ;
+    padding: 17px;
+}
+
+.btn-primary {
+    background-color: #333333;
+    color: white;
+}
+
+.btn-primary:hover {
+    background-color: #322bea;
+}
+
+.btn-primary:active {
+    background-color: none;
+    transform: translateY(2px);
+}
+
